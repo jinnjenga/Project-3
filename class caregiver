@@ -1,0 +1,17 @@
+class Caregiver:
+    def __init__(self,name,phone,email,payrate,hours):
+        self.name = name
+        self.phone = phone
+        self.email = email
+        self.payrate = payrate
+        self.hours = hours
+
+    
+    def set_preferences(self,preference):
+        day = preference
+
+class pay(Caregiver):
+    pass
+
+class schedule(Caregiver):
+    pass
